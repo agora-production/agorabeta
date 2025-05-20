@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AGORA 프로덕션 KR</title>
+  <style>
+    /* 기본 세팅 */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* 헤더 */
+    header {
+      background: linear-gradient(to right, #6a0dad, #00bfff);
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* 배너 */
+    .banner {
+      background: linear-gradient(rgba(106, 13, 173, 0.6), rgba(0, 191, 255, 0.6)), url('banner.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 2.2rem;
+      text-align: center;
+      padding: 1rem;
+      font-weight: bold;
+    }
+
+    /* 메인 콘텐츠 */
+    main {
+      padding: 2rem 10%;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      background-color: #ffffff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #6a0dad;
+      margin-bottom: 1rem;
+      border-left: 5px solid #00bfff;
+      padding-left: 1rem;
+      font-size: 1.6rem;
+    }
+
+    section p, section ul {
+      font-size: 1.1rem;
+    }
+
+    /* 버튼 스타일 예시 (필요 시 사용) */
+    .button {
+      background-color: #6a0dad;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background-color: #7e3ff2;
+    }
+
+    /* 푸터 */
+    footer {
+      background-color: #4b0082;
+      color: #e0e0e0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    /* 반응형 */
+    @media (max-width: 768px) {
+      main {
+        padding: 1.5rem 5%;
+      }
+
+      .banner {
+        font-size: 1.5rem;
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Agora 프로덕션</h1>
+    <nav>
+      <a href="#about">회사소개</a>
+      <a href="#services">서비스</a>
+      <a href="#contact">연락처</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <p>엔터테인먼트, AI, 스트리밍 서비스 </p>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>회사소개</h2>
+      <p>저희 Agora Production은 유능한 인재를 보유한 미래를 선도하는 기업입니다.
+      혁신, 신뢰, 성장을 핵심 가치로 삼고 있습니다.</p>
+    </section>
+
+    <section id="services">
+      <h2>서비스</h2>
+      <ul>
+        <li>CHimera-Ai</li>
+        <li>Akira Entertainments</li>
+        <li>Sileo-MOdern streaming Service</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <p>주소: 울산광역시 남구 동산로 69번길</p>
+      <p>이메일: jelloclientv2@gmail.com</p>
+      <p>전화: no</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 AGORA Productions All Rights Reserved.
+  </footer>
+
+</body>
+</html>
